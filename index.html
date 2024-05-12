@@ -13,21 +13,69 @@
           <img src="img/odin-lined.png" alt="Logo odin" />
           <h1>ODIN</h1>
         </div>
-        <span
-            >Foto de
-            <a
-              href="https://unsplash.com/es/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-              >Halie West</a
-            >
-            en
-            <a
-              href="https://unsplash.com/es/fotos/planta-de-hoja-verde-en-fotografia-de-primer-plano-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-              >Unsplash</a
-            >
-          </span>
- 
+        <p
+          >Foto de
+          <a
+            href="https://unsplash.com/es/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Halie West</a
+          >
+          en
+          <a
+            href="https://unsplash.com/es/fotos/planta-de-hoja-verde-en-fotografia-de-primer-plano-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
+        </span>
       </div>
-      <div class="right"></div>
+      <div class="right">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <br />
+        <p>You know you want to.</p>
+        <div class="container-form">
+          <p>Let´s do this!</p>
+          <form action="#" method="post">
+            <div class="row">
+              <div class="input">
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Jose" required>
+              </div>
+              <div class="input">
+                <label for="lastName">LAST NAME</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Perez" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" placeholder="youremail@mail.com" required>
+              </div>
+              <div class="input">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone" placeholder="+584245939080" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}|:<>?]).{6,}$" title="The password must have at least one uppercase letter, one number, and one special character. It must be at least 6 characters." required>
+
+              </div>
+              <div class="input">
+                <label for="confirm">CONFIRM PASSWORD</label>
+                <input type="password" name="password" id="password" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}|:<>?]).{6,}$" title="The password must have at least one uppercase letter, one number, and one special character. It must be at least 6 characters." required>
+
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="container-submit">
+          <button id="submit" type="submit">Create Account</button>
+          <p>Already have a account? <a href="#">Log in</a></p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

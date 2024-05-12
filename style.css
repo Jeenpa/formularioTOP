@@ -10,7 +10,6 @@
 }
 
 .container{
-    background-color: green;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -20,17 +19,18 @@
     background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     width: 30%;
+    max-height: 100vh;
 }
 
-.left span{
-    font-size: 1rem;
+.left p{
+    font-size: 12px;
     position: absolute;
     bottom: 10px;
-    left: 50px;
+    left: 80px;
     text-align: center;
 }
 
-.left span, .left span a{
+.left p, .left p a{
     color: #fff;
 }
 
@@ -57,4 +57,80 @@
 .right{
     background-color: #f9fafb;
     width: 70%;
+    
+}
+
+.right p{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 600px;
+    text-align: justify;
+    padding-left: 60px;
+}
+
+.right p:first-child{
+    margin-top: 60px;
+}
+
+.right .container-form{
+    background-color: #fff;
+    height: 30%;
+    padding-left: 60px;
+}
+
+.right .container-form p{
+    padding: 0;
+}
+
+.right .container-form input:focus{
+    border: 1px solid rgba(0, 0, 255, 0.733);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.right .container-form input[type="password"]:invalid{
+    border-color: red;
+}
+
+.right .row{
+    display: flex;
+}
+
+.right .input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.right label{
+ font-size: 0.6rem;   
+}
+
+.right .input{
+    width: 200px;
+}
+
+.right .container-submit{
+    padding-left: 60px;
+}
+
+.right #submit{
+    background-color: #596D48;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.right .container-submit p{
+    padding: 0;
+    margin-top: 10px;
+}
+
+.right .container-submit a{
+    text-decoration: none;
+    color: #596D48;
 }
